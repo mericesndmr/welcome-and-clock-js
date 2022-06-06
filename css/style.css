@@ -1,0 +1,148 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+/* body codes */
+body{
+    width: 100%;
+    background-color: #9fd3c7;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+/* body codes */
+
+
+
+
+
+/* container codes */
+#container{
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    margin-top: 30px;
+
+    position: relative;
+
+}
+/* container codes */
+
+
+
+
+
+/* boxes codes */
+.boxes{
+    background-color:#9fd3c7;
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.box-1 > a{
+    cursor: pointer;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.box-1 > a >img{
+    width: 80%;
+    background-color: beige;
+    border-radius: 10px;
+
+}
+
+
+.box-2{
+    margin-top: 15px;
+    padding: 15px;
+    text-align: center;
+  color: #e98208;
+  font-size: 1em;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 7px;
+}
+
+
+.text2{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: #e98208;
+    font-size: 1em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 7px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 10px;
+    word-wrap:break-word;
+}
+
+
+#js-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#js-container > div{
+    padding: 10px;
+    font-family: cursive;
+    font-size: 1em;
+}
+/* boxes codes */
+
+ 
+
+
+
+
+
+
+
+
+
+/* .clock {
+  position: relative;
+  text-align: center;
+  color: #e98208;
+  font-size: 60px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 7px;
+}
